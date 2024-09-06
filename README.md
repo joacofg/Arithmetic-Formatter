@@ -1,16 +1,16 @@
-Formateador Aritmético
+Arithmetic Formatter
 
-Este proyecto proporciona un formateador aritmético que organiza problemas matemáticos verticalmente y uno al lado del otro, similar a cómo se presentan en la escuela primaria. La función arithmetic_arranger formatea una lista de problemas aritméticos en una salida limpia y legible con resultados opcionales.
-Características:
+This project provides an arithmetic formatter that arranges arithmetic problems vertically and side-by-side, similar to how they are presented in primary school. The arithmetic_arranger function formats a list of arithmetic problems into a clean, readable output with optional results.
+Features:
 
-   - Alineación Vertical: Organiza los problemas en un formato vertical con números y operadores alineados correctamente.
-   - Soporte para Suma y Resta: Maneja problemas aritméticos que involucran suma y resta.
-   - Manejo de Errores: Valida la entrada para detectar errores como operadores inválidos, caracteres no numéricos y números que exceden los cuatro dígitos.
-   - Resultados Opcionales: Puede mostrar los resultados de las operaciones aritméticas si se solicita.
+    Vertical Alignment: Arranges problems in a vertical format with numbers and operators aligned correctly.
+    Support for Addition and Subtraction: Handles arithmetic problems involving addition and subtraction.
+    Error Handling: Validates input for errors such as invalid operators, non-digit characters, and numbers exceeding four digits.
+    Optional Results: Can display the results of the arithmetic operations if requested.
+    
+Error Handling:
 
-Manejo de Errores:
-
-   - Demasiados Problemas: Retorna un error si se proporcionan más de cinco problemas.
-   - Operadores Inválidos: Retorna un error si se utilizan operadores distintos de '+' o '-'.
-   - Caracteres No Numéricos: Retorna un error si los números contienen caracteres no numéricos.
-   - Dígitos Excesivos: Retorna un error si algún número supera los cuatro dígitos.
+    Too Many Problems: Returns an error if more than five problems are provided.
+    Invalid Operators: Returns an error if operators other than '+' or '-' are used.
+    Non-Digit Characters: Returns an error if numbers contain non-digit characters.
+    Excessive Digits: Returns an error if any number exceeds four digits.
